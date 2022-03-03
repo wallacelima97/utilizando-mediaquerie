@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikecraft</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./img/bikcraft.svg" alt="Bikcraft" />
+      <!-- usando termo de acessibilidade -->
+      <nav aria-label="primaria">
+        <ul class="menu">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Lojas</a></li>
+          <li><a href="#">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--utilizando article no conteúdo-->
+
+    <main>
+      <article class="conteudo">
+        <div class="introducao" aria-labelledby="label-introducao">
+          <span class="detalhe"></span>
+          <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
+          <p>
+            A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
+            vem equipada com os melhores acessórios da marca.
+          </p>
+          <a class="botao" href="#"> Ver Mais</a>
+        </div>
+        <div class="introducao-cover">
+          <img src="./img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta" />
+        </div>
+      </article>
+
+      <article class="conteudo conteudo-vantagem" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-vantagens">Vantagens Bikcraft</h2>
+
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img src="./img/eletrica.svg" alt="" />
+          <h3>Motor Elétrico</h3>
+          <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
+        </li>
+
+        <li class="vantagens-item">
+          <img src="./img/velocidade.svg" alt="" />
+          <h3>Velocidade</h3>
+          <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
+        </li>
+
+        <li class="vantagens-item">
+          <img src="./img/rastreador.svg" alt="" />
+          <h3>Rastreador</h3>
+          <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
+        </li>
+      </div>
+    </article>
+    </main>
+
+    <footer class="rodape">
+      <p>Bikcraft. Alguns Direitos Reservados.</p>
+    </footer>
+  </body>
+</html>
